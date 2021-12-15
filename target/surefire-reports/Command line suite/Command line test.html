@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 12 14:32:48 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (48 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m10test1_g_smoke()'><b>m10test1_g_smoke</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m12test1_g_smoke()'><b>m12test1_g_smoke</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro1Test.main_1()'><b>main_1</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro1Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro1Test@40a4337a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro3Test.main_3()'><b>main_3</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro3Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro3Test@22ff4249</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m08test1_p2()'><b>m08test1_p2</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m06test1_p2()'><b>m06test1_p2</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m07test1_p1()'><b>m07test1_p1</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro2Test.main_2()'><b>main_2</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro2Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro2Test@6025e1b6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m08test1_p2()'><b>m08test1_p2</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m09test1_g_smoke_security()'><b>m09test1_g_smoke_security</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m11test1_g_regression()'><b>m11test1_g_regression</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m10test1_g_smoke()'><b>m10test1_g_smoke</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m09test1_g_smoke_security()'><b>m09test1_g_smoke_security</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.Pro4Test.m12test1_g_smoke()'><b>m12test1_g_smoke</b><br>Test class: MAVEN.PROJECT_MANAGER.Pro4Test</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.Pro4Test@2d1ef81a</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m07test1_p1()'><b>m07test1_p1</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m06test1_p2()'><b>m06test1_p2</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+<tr>
+<td title='MAVEN.PROJECT_MANAGER.AnnotationsTest.m11test1_g_regression()'><b>m11test1_g_regression</b><br>Test class: MAVEN.PROJECT_MANAGER.AnnotationsTest</td>
+<td></td>
+<td>0</td>
+<td>MAVEN.PROJECT_MANAGER.AnnotationsTest@292b08d6</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="47" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+    <groups>
+      <group name="security">
+        <method signature="Annotations.m09test1_g_smoke_security()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m09test1_g_smoke_security" class="MAVEN.PROJECT_MANAGER.Annotations"/>
+      </group> <!-- security -->
+      <group name="regression">
+        <method signature="Annotations.m11test1_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m11test1_g_regression" class="MAVEN.PROJECT_MANAGER.Annotations"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Annotations.m09test1_g_smoke_security()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m09test1_g_smoke_security" class="MAVEN.PROJECT_MANAGER.Annotations"/>
+        <method signature="Annotations.m10test1_g_smoke()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m10test1_g_smoke" class="MAVEN.PROJECT_MANAGER.Annotations"/>
+        <method signature="Annotations.m12test1_g_smoke()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m12test1_g_smoke" class="MAVEN.PROJECT_MANAGER.Annotations"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Surefire test" duration-ms="47" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+      <class name="MAVEN.PROJECT_MANAGER.Annotations">
+        <test-method status="PASS" signature="m01test1_bs()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m01test1_bs" is-config="true" duration-ms="9" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m01test1_bs -->
+        <test-method status="PASS" signature="m02test1_bt_g_smoke()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m02test1_bt_g_smoke" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m02test1_bt_g_smoke -->
+        <test-method status="PASS" signature="m03test1_bc()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m03test1_bc" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m03test1_bc -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m09test1_g_smoke_security()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m09test1_g_smoke_security" duration-ms="8" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m09test1_g_smoke_security -->
+        <test-method status="PASS" signature="m11test1_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m11test1_g_regression" duration-ms="9" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m11test1_g_regression -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m10test1_g_smoke()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m10test1_g_smoke" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m10test1_g_smoke -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="2" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m12test1_g_smoke()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m12test1_g_smoke" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m12test1_g_smoke -->
+        <test-method status="PASS" signature="m07test1_p1()[pri:1, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m07test1_p1" duration-ms="1" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m07test1_p1 -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m06test1_p2()[pri:2, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m06test1_p2" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m06test1_p2 -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m08test1_p2()[pri:2, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m08test1_p2" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m08test1_p2 -->
+        <test-method status="PASS" signature="m05test1_bm_g_regression()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m05test1_bm_g_regression" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m05test1_bm_g_regression -->
+        <test-method status="PASS" signature="m13test1_am()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m13test1_am" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m13test1_am -->
+        <test-method status="PASS" signature="m15test1_at()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m15test1_at" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m15test1_at -->
+        <test-method status="PASS" signature="m14test1_ac()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m14test1_ac" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m14test1_ac -->
+        <test-method status="PASS" signature="m16test1_as()[pri:0, instance:MAVEN.PROJECT_MANAGER.Annotations@369f73a2]" name="m16test1_as" is-config="true" duration-ms="0" started-at="2021-12-14T23:21:06 IST" finished-at="2021-12-14T23:21:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m16test1_as -->
+      </class> <!-- MAVEN.PROJECT_MANAGER.Annotations -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
