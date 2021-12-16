@@ -1,0 +1,18 @@
+git config --global user.name "githubjenkinsmaven"
+git config --global user.email riteshrsg11@gmail.com
+echo "# gitBasic" >> README.md
+git init
+git add README.md
+git commit -m "first commit by ritesh"
+git branch -M main
+git remote add origin https://github.com/githubjenkinsmaven/gitBasic.git
+git push -u origin main
+
+
+
+
+
+
+git remote add origin https://github.com/githubjenkinsmaven/gitBasic.git
+git branch -M main
+git push -u origin main
