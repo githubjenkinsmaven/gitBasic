@@ -11,6 +11,8 @@ public class Pro1Test {
 		
 		System.out.println("main_2");
 		
+		System.out.println("main_3");
+		
 	}
 
 }
