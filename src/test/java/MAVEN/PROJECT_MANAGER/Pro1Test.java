@@ -9,6 +9,8 @@ public class Pro1Test {
 		
 		System.out.println("main_1");
 		
+		System.out.println("main_2");
+		
 	}
 
 }
